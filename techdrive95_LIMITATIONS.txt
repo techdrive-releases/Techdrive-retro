@@ -3,7 +3,7 @@ TechDrive 95 – Limitations
 
 Language / runtime
 -------------------
-- No Python. No Tcl/Tk. No modern GUI framework.
+- No modern GUI framework.
 - Pure MS-DOS / Windows 95 batch only.
 
 Commands that do not exist (or are useless) on stock Windows 95
