@@ -1,0 +1,35 @@
+TechDrive 95 – Limitations
+===========================
+
+Language / runtime
+-------------------
+- No Python. No Tcl/Tk. No modern GUI framework.
+- Pure MS-DOS / Windows 95 batch only.
+
+Commands that do not exist (or are useless) on stock Windows 95
+------------------------------------------------------------------
+- PowerShell / pwsh
+- wmic
+- systeminfo (XP+)
+- tasklist / taskkill (as known on XP+)
+- sfc /scannow
+- DISM
+- modern netsh contexts
+- Get-MpComputerStatus, BitLocker, TPM, Secure Boot cmdlets
+- Any .NET based tool that requires later runtimes
+- net / netstat / winipcfg, unless TCP/IP networking was added via
+  Add/Remove Programs - a stock Windows 95 Gold install ships with
+  none of this out of the box (95 OSR2 and later are more likely to
+  have it already configured)
+
+What the menu deliberately uses
+---------------------------------
+- Built-in commands: ver, mem, dir, tree, set, date, time
+- Optional era tools: scandisk, defrag, net, winipcfg, netstat
+- Clear messages when something is missing
+
+Security note
+--------------
+Windows 95 has been unsupported for decades. Do not expose it to the
+internet. Use this menu only on isolated or carefully controlled
+machines when you still need to service old hardware.
