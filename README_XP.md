@@ -1,7 +1,7 @@
 # TechDrive XP Edition
 
 Separate edition for **Windows XP SP2/SP3 and Windows Vista (32-bit and
-64-bit) + Python 3.4.4**.
+64-bit)**.
 
 ## Official notice
 
@@ -26,7 +26,7 @@ full license terms. By using this software, you agree to those terms.
 
 This is **not** a cut-down copy of the modern TechDrive. It is a dedicated
 application written for the last official Python that still ran on XP
-(Python 3.4.4) and for the commands that actually exist on XP/Vista
+and for the commands that actually exist on XP/Vista
 (`wmic`, `systeminfo`, `netsh`, `sc`, `reg`, classic Control Panel applets).
 
 ## Requirements
@@ -34,28 +34,9 @@ application written for the last official Python that still ran on XP
 | Item | Notes |
 |------|--------|
 | **OS** | Windows XP SP2/SP3 or Windows Vista — 32-bit or 64-bit |
-| **Python** | **3.4.4** (last official build that supported XP) |
 
 | **Extra packages** | **None** – uses only the standard library |
 
-Download Python 3.4.4 from the official archives:  
-https://www.python.org/downloads/release/python-344/
-
-## Run
-
-Double-click:
-
-```
-Run_TechDrive_XP.bat
-```
-
-Or from a command prompt:
-
-```
-python techdrive_xp.py
-```
-
-The batch file also looks for common install paths (`C:\Python34\`, etc.).
 
 ## What you get
 
@@ -81,7 +62,6 @@ tool-by-tool status list.
 
 Modern TechDrive relies on:
 
-- Python 3.8+ language features and packages (psutil, WMI, Pillow, …)
 - PowerShell modules (Defender, BitLocker, TPM, …)
 - DISM, modern CBS logs, cloud APIs, etc.
 
@@ -90,23 +70,9 @@ commands and COM surfaces that shipped with XP.
 
 For the complete modern experience use:
 
-- **TechDrive Win7 + Python 3.8.10 edition** on Windows 7  
+- **TechDrive Win7** on Windows 7/8/8.1/10 32bit 
 - **Main TechDrive** on Windows 10 / 11
 
-## Files in this package
-
-```
-techdrive_xp.py          Main application
-py34_compat.py           XP / Python 3.4 helpers
-tool_status.py           Full catalogue + WORKS/LIMITED/NO status
-original_catalogue.py    Original tool names (display)
-gui/theme.py             Classic blue XP-style theme
-gui/assets/sounds/       Startup / Shutdown / Error WAVs
-techdrive_icon.ico       Application icon
-Run_TechDrive_XP.bat     Launcher
-docs/LIMITATIONS.md      Detailed limitations
-README_XP.md             This file
-```
 
 ## Support reality
 
