@@ -77,9 +77,8 @@ No installer. No Python. No extra DLLs.
 Sister editions (for real diagnostic work)
 ---------------------------------------------------------------------
 
-  Windows 98 / Me ... TechDrive 98 Edition    (batch tribute menu)
-  Windows XP ........ TechDrive XP Edition     (Python 3.4.4)
-  Windows 7 ......... TechDrive Win7 Edition   (Python 3.8.10)
+  Windows XP ........ TechDrive XP Edition    
+  Windows 7 ......... TechDrive Win7 Edition  
   Windows 10 / 11 ... Main TechDrive
 
 Use those on supported OS versions. Use this 95 menu only on actual
